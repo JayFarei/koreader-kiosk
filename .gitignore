@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Next.js
+.next/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build outputs
+out/
+*.log
+
+# Tool-specific
+.kluster/
+
+# Local config (contains IP addresses and personal settings)
+sync/config
+dashboard-web/.env.local
+
+# SSH keys
+kindle-dashboard
+kindle-dashboard.pub
+*.pub

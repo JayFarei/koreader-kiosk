@@ -1,0 +1,56 @@
+# Kindle SSH Configuration (via KOReader SSH Server)
+# Copy this file to 'config' and fill in your values
+#
+# To find these values:
+# 1. Open KOReader on your Kindle
+# 2. Go to Settings → Network → SSH server
+# 3. Enable SSH server, note the IP and port shown
+
+# Kindle IP address (shown in KOReader SSH settings)
+KINDLE_IP=192.168.1.XXX
+
+# SSH user (usually 'root')
+KINDLE_USER=root
+
+# SSH port (KOReader typically uses 2222)
+KINDLE_PORT=2222
+
+# SSH password (empty for KOReader with "login without password" enabled)
+KINDLE_PASSWORD=
+
+# Path on Kindle where dashboard image will be stored
+KINDLE_DASHBOARD_PATH=/mnt/us/dashboard
+
+# =============================================================================
+# Dashboard Settings - Multi-Stop Configuration
+# =============================================================================
+# You can configure multiple bus stops. Each stop gets its own page.
+# Use Kindle Oasis buttons to navigate between stops.
+# Find stop IDs at api.tfl.gov.uk/StopPoint/Search
+
+# Number of stops to display
+STOP_COUNT=2
+
+# Stop 1
+STOP_1_ID=490000118P
+STOP_1_BUS_LINE=W7
+STOP_1_ROUTE_NAME="W7 to Finsbury Park"
+STOP_1_STOP_NAME="Cecile Park"
+STOP_1_WALK_TIME_MINUTES=5
+
+# Stop 2
+STOP_2_ID=490009999Z
+STOP_2_BUS_LINE=9
+STOP_2_ROUTE_NAME="9 to Kensington Palace"
+STOP_2_STOP_NAME="Hyde Park Corner"
+STOP_2_WALK_TIME_MINUTES=10
+
+# Add more stops by incrementing the number:
+# STOP_3_ID=...
+# STOP_3_BUS_LINE=...
+# etc.
+
+# Weather Location (use Google Maps to find coordinates)
+# Right-click on your location and copy the coordinates
+WEATHER_LATITUDE=51.5014
+WEATHER_LONGITUDE=-0.1419

@@ -1,10 +1,10 @@
-![TFL London Bus Kiosk](header.jpg)
+![TFL London Bus Kiosk](public/header.jpg)
 
 # TFL London Bus Kiosk for KOReader
 
 Turn your Kindle into a real-time TfL bus departure board.
 
-![Demo](demo.gif)
+![Demo](public/demo.gif)
 
 *Use physical buttons or swipe to switch between your favourite stops*
 
